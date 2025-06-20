@@ -1,12 +1,12 @@
 #ifndef ZEL40_CRYPTO_TYPES_H
 #define ZEL40_CRYPTO_TYPES_H
 
-#include "../wolfssl-5.8.0/include/wolfssl/options.h"
-#include "../wolfssl-5.8.0/include/wolfssl/wolfcrypt/settings.h"
-#include "../wolfssl-5.8.0/include/wolfssl/wolfcrypt/random.h"
-#include "../wolfssl-5.8.0/include/wolfssl/wolfcrypt/hash.h"
-#include "../wolfssl-5.8.0/include/wolfssl/wolfcrypt/rsa.h"
-#include "../wolfssl-5.8.0/include/wolfssl/openssl/pem.h"
+#include "../../wolfssl-5.8.0/include/wolfssl/options.h"
+#include "../../wolfssl-5.8.0/include/wolfssl/wolfcrypt/settings.h"
+#include "../../wolfssl-5.8.0/include/wolfssl/wolfcrypt/random.h"
+#include "../../wolfssl-5.8.0/include/wolfssl/wolfcrypt/hash.h"
+#include "../../wolfssl-5.8.0/include/wolfssl/wolfcrypt/rsa.h"
+#include "../../wolfssl-5.8.0/include/wolfssl/openssl/pem.h"
 
 #include <stdint.h>
 #include <stdbool.h>

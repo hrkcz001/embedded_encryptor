@@ -1,5 +1,5 @@
-#include "crypto.h"
-#include "internal_types.h"
+#include "include/crypto.h"
+#include "include/internal_types.h"
 
 crypto_status_t rsa_encrypt_aes_key(crypto_ctx_t *ctx)
 {

@@ -1,5 +1,5 @@
-#include "crypto.h"
-#include "internal_types.h"
+#include "include/crypto.h"
+#include "include/internal_types.h"
 
 crypto_status_t set_rsa_public_key(const uint8_t *in, uint32_t in_len, crypto_ctx_t *ctx)
 {
