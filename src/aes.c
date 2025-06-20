@@ -1,5 +1,5 @@
-#include "include/crypto.h"
-#include "include/internal_types.h"
+#include "../include/crypto.h"
+#include "../include/internal_types.h"
 
 crypto_status_t generate_aes_key(uint8_t ok_bits, crypto_ctx_t *ctx)
 {

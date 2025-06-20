@@ -1,5 +1,5 @@
-#include "include/crypto.h"
-#include "include/internal_types.h"
+#include "../include/crypto.h"
+#include "../include/internal_types.h"
 
 crypto_status_t sign_message(crypto_ctx_t *ctx)
 {
