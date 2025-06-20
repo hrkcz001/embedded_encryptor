@@ -7,7 +7,7 @@ function cleanup {
 }
 
 for cmd in wget gpg tar make gcc nproc realpath autoconf automake libtool; do
-    command -v "$cmd" >/dev/null 2>&1 | {
+    command -v "$cmd" >/dev/null 2>&1 || {
         echo "$cmd is not installed."
         exit 1
     }
