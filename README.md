@@ -1,4 +1,4 @@
-Largely conforms to MISRA C guidelines.
+Largely conforms to MISRA C 2025 guidelines.
 
 ### Example
 ```
