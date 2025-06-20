@@ -1,4 +1,4 @@
-#include "types.h"
+#include "crypto.h"
 #include "internal_types.h"
 
 crypto_status_t serialize(crypto_serialized_t *out, const crypto_ctx_t *ctx)
