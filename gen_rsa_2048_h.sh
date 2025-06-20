@@ -5,6 +5,13 @@ if [ -z "$1" ] || [[ ! "$1" =~ ^[a-zA-Z_][a-zA-Z0-9_]*$ ]]; then
   exit 1
 fi
 
+for cmd in openssl xxd; do
+    command -v "$cmd" >/dev/null 2>&1 || {
+        echo "$cmd is not installed."
+        exit 1
+    }
+done
+
 TMP_PRIV=$(mktemp)
 
 openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 > $TMP_PRIV
