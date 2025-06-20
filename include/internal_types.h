@@ -1,5 +1,5 @@
-#ifndef ZEL40_CRYPTO_INTERNAL_TYPES_H
-#define ZEL40_CRYPTO_INTERNAL_TYPES_H
+#ifndef CRYPTO_INTERNAL_TYPES_H
+#define CRYPTO_INTERNAL_TYPES_H
 
 #include "types.h"
 
@@ -16,4 +16,4 @@ typedef struct CRYPTO_ENCRYPTED_MESSAGE encrypted_message_t;
 typedef struct CRYPTO_ENCRYPTED_PACKAGE encrypted_package_t;
 
 
-#endif /* ZEL40_CRYPTO_INTERNAL_TYPES_H */
+#endif /* CRYPTO_INTERNAL_TYPES_H */

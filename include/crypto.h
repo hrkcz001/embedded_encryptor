@@ -1,5 +1,5 @@
-#ifndef ZEL40_CRYPTO_H
-#define ZEL40_CRYPTO_H
+#ifndef CRYPTO_H
+#define CRYPTO_H
 
 #include "types.h"
 
@@ -153,4 +153,4 @@ crypto_status_t decrypt_message( const uint8_t *in
                                ,       uint32_t private_key_len
                                ,       crypto_ctx_t *ctx);
 
-#endif /* ZEL40_CRYPTO_H */
+#endif /* CRYPTO_H */

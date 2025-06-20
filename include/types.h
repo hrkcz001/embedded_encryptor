@@ -1,5 +1,5 @@
-#ifndef ZEL40_CRYPTO_TYPES_H
-#define ZEL40_CRYPTO_TYPES_H
+#ifndef CRYPTO_TYPES_H
+#define CRYPTO_TYPES_H
 
 #include "../wolfssl-5.8.0/include/wolfssl/options.h"
 #include "../wolfssl-5.8.0/include/wolfssl/wolfcrypt/settings.h"
@@ -109,4 +109,4 @@ typedef struct CRYPTO_SERIALIZED{
     crypto_status_t status;
 } crypto_serialized_t;
 
-#endif /* ZEL40_CRYPTO_TYPES_H */
+#endif /* CRYPTO_TYPES_H */
